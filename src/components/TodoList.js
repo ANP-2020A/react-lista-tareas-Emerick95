@@ -14,7 +14,7 @@ const TodoList =()=>{
             task
         ];
         setListas(newListas);
-        document.querySelector( '#task' ).value = '';
+
     };
 
     const handleDeleteTask=(index)=>{
@@ -55,7 +55,7 @@ const TodoList =()=>{
                 <table>
                     <thead>
                     <tr>
-                        <th>Nombre</th>
+                        <th>Tareas</th>
                     </tr>
                     </thead>
                     <tbody>
